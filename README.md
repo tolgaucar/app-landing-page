@@ -4,6 +4,9 @@
 Bu uygulama tanıtım sayfası PHP, JavaScript, Bulma.CSS kullanılarak kodlanmıştır. PHP pek fazla kullanılmamış olup, tasarım ağırlıklıdır. PHP ile tek bir dosya üzerinden bütün yazıları/resimleri değiştirebileceğiniz bir araç yapılmıştır.
 Kurulumu/kullanılması çok basittir admin paneli bulunmamaktadır.
 
+## Screenshot
+https://bit.ly/2KGKHee
+
 ## Kurulum
 
 1. Dosyaları indirin ve serverınıza atın.
