@@ -9,7 +9,7 @@ https://bit.ly/2KGKHee
 
 ## Kurulum
 
-1. Dosyaları indirin ve serverınıza atın.
+1. Dosyaları indirin ve sunucunuzun klasörüne atın.
 2. ayarlamalar.php adresinden bütün bilgileri düzenleyebilirsiniz.
 
 ## Katkıda Bulunma
