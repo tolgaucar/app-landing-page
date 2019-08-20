@@ -1,0 +1,45 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.indir{
+background: #CB356B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+text-decoration: none;
+}
+.tanitimyazi{
+	 font-family: Roboto;
+	 font-size: 70px;
+}
+.yorumbaslik{
+	font-family: Roboto;
+	padding-bottom: 1rem;
+}
+#footer{
+	font-size: 1rem;
+	font-family: Roboto;
+	background-color: #2b2b2b;
+}
+#yorumlar{
+	background-color: #ebebeb;
+}
+#altmetin{
+	font-family: Roboto;
+	color:white;
+	background-color: #0016df;
+}
+.baslik{
+	font-family: Roboto;
+	font-style: italic;
+}
+
+.menuyazi{
+	opacity: 0.8;
+	font-family: Roboto;
+	color: #ffffff;
+}
+.hero-homepage{
+	background-image: linear-gradient(to bottom, #642b73, #c6426e);
+}
+
