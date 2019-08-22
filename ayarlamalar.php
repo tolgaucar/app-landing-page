@@ -3,9 +3,16 @@
 // Genel Ayarlamalar
 $siteisimi = "uygulama tanıtımı";
 $title = "uygulama tanıtımı sitesi";
-$baslik = "Daha önce böyle bir uygulama görmüş müydünüz?";
-$googleplay = "#"; //Google Play Linki (HTTP kullanarak yazın)
+$baslik = "LoremAPP";
+$aciklama = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam uis nostrud."; // Optimum sonuç ortalama 25-30 kelime.
 $footer ="Footer Yazısı";
+
+// Linkler (Değerleri 0 yaparsanız o platform gözükmez)
+// Örn: $appstore = '0'; yaparsanız app store gözükmez.
+
+$appstore = '#'; // App Store Linki 
+$googleplay = '#'; //Google Play Linki (HTTP kullanarak yazın)
+
 
 // Telefon Fotoğrafı
 $telefon ="img/0.png";

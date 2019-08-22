@@ -19,24 +19,32 @@
 				    </div>
 				  </div>
 				</nav>
-				<section class="section">
-					<div class="container">
+					
+						<section class="section">
+							<div class="container">
 						<div class="columns">
-							<div class="column is-7">
-								<h1 class="tanitimyazi is-size-4-mobile has-text-white has-text-left	"><?php echo $baslik; ?></h1><br>
-								<a target="_blank" href="<?php echo $googleplay; ?>" class="button is-large indir has-text-white is-focus is-rounded">Google Play</a>
-							</div>
 							<div class="column is-half">
-								<center><img id="telefon" class="image" src="<?php echo $telefon; ?>"></center>
+								<h1 class="title is-size-1 is-size-4-mobile has-text-light has-text-left"><?php echo $baslik; ?></h1>
+								<h2 class="subtitle is-size-2 has-text-white "><?php echo $aciklama; ?></h2>
+								<?php if ($googleplay != '0') { ?>
+								<a target="_blank" href="<?php echo $googleplay; ?>" class="button is-large indir has-text-white is-focus is-rounded">Google Play</a>
+								<?php }?>
+								<?php if($appstore != '0'){ ?>
+								<a target="_blank" href="<?php echo $appstore; ?>" class="button is-large indir has-text-white is-focus is-rounded">App Store</a>
+							<?php } ?>
+							</div>
+							<div class="column is-half is-offset-2 is-offset-2-mobile">
+								<img id="telefon" class="image" src="<?php echo $telefon; ?>">
 							</div>
 						</div>
-					</div>
-				</section>
+						</div>
+						</section>
+					
 			</div>
 
 		</section>
 	</div>
-	<section id="ozellikler"  class="hero">
+	<section id="ozellikler"  class="hero is-fullheight">
 		<div class="hero-body">
 			<div class="container">
 				<div class="columns is-centered is-mobile">
