@@ -16,7 +16,7 @@ https://bit.ly/2KGKHee
 1. Dosyaları indirin ve sunucunuzun klasörüne atın.
 2. ayarlamalar.php adresinden bütün bilgileri düzenleyebilirsiniz.
 
-## Installing
+## Deploy
 1. Fork the project and send to your server
 2. Config file is "ayarlamalar.php". You can edit the settings from this file.
 
